@@ -4,22 +4,15 @@ layout: home
 
 hero:
   name: "Mario's Blog"
-  text: "lijiale.mario blog"
-  tagline: My great project tagline
+  tagline: Mario的程序员生活
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: iOS
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: iOS 动画
+    details: iOS开发中，关于动画你应该知道的
+  - title: iOS 架构
+    details: 如何优化业务架构
 ---
-

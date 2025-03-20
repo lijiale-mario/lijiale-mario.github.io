@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,22 +7,29 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "Home", link: "/" },
+      { text: "iOS", link: "/ios/ios" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "动画",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "Core Animation", link: "/ios/animation/core-animation" },
+          { text: "UIView Animation", link: "/ios/animation/uiview-animation" },
+        ],
+      },
+      {
+        text: "调试工具",
+        items: [
+          { text: "LLDB", link: "/ios/debug/lldb" },
+          { text: "Instruments", link: "/ios/debug/instruments" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    ],
+  },
+});
